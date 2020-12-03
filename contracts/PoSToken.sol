@@ -114,8 +114,8 @@ contract PoSTokenStandard {
 contract PoSToken is ERC20,PoSTokenStandard,Ownable {
     using SafeMath for uint256;
 
-    string public name = "PoSToken";
-    string public symbol = "POS";
+    string public name = "Redstone";
+    string public symbol = "RS";
     uint public decimals = 18;
 
     uint public chainStartTime; //chain start time
